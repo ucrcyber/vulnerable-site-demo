@@ -212,10 +212,10 @@
 </div>
 <script>
     function checkCredentials() {
-        let username = document.getElementsByName("admin")[0].value;
-        let password = document.getElementsByName("secretpasswd")[0].value;
-        if (username == "username" && password == "password") {
-            alert("flag{u_g0t_1t}")
+        let username = document.getElementsByName("username")[0].value;
+        let password = document.getElementsByName("password")[0].value;
+        if (username == "admin" && password == "secretpasswd") {
+            alert(atob("ZmxhZ3t1X2cwdF8xdH0K"))
         } else {
             alert("Invalid credentials");
         }
